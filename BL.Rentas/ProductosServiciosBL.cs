@@ -8,10 +8,10 @@ namespace BL.Rentas
 {
     public class ProductosServiciosBL
     {
-        public BindigList<ProductosServicios>ListaProductosServicios { get; set; }
+        public BindingList<ProductosServicios>ListaProductosServicios { get; set; }
         public ProductosServiciosBL()
         {
-            ListaProductosServicios = new BindigList<ProductosServicios>();
+            ListaProductosServicios = new BindingList<ProductosServicios>();
             var producto1 = new ProductosServicios();
             producto1.Codigo = 000001;
             producto1.Descripcion = "Kit de Camaras";

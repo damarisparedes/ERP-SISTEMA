@@ -12,9 +12,12 @@ namespace Win.ERP
 {
     public partial class FormProductos : Form
     {
+        ProductosBL_productos;
+
         public FormProductos()
         {
             InitializeComponent();
+            _productos= new 
         }
 
         private void FormProductos_Load(object sender, EventArgs e)
