@@ -132,5 +132,12 @@ namespace Win.ERP
         {
 
         }
+
+        private void productosYServicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formProductos = new FormProductos();
+            formProductos.MdiParent = this;
+            formProductos.Show();
+        }
     }
 }
