@@ -10,6 +10,7 @@ namespace BL.Rentas
     public class ProductosServiciosBL
     {
         public BindingList<ProductosServicios>ListaProductosServicios { get; set; }
+
         public ProductosServiciosBL()
         {
             ListaProductosServicios = new BindingList<ProductosServicios>();
